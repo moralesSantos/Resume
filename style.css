@@ -1,0 +1,137 @@
+body {
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+    margin: 0 200px;
+    padding: 0;
+    background-color: #53585dee;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.header-info h1 {
+    font-size: 2em;
+
+}
+
+.tech-skills{
+    margin: -10px auto;
+}
+
+.contact-info p, .contact-info a {
+    margin: 5px 0;
+}
+
+.title-date{
+    display:-webkit-flex;
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    justify-content:flex-end;
+}
+
+.left{
+    margin-right:auto;
+}
+.right{
+    margin-right: 30px;
+}
+
+.job-location{
+    display:-webkit-flex;
+    display:flex;
+    padding:0;
+    justify-content:flex-end;
+    margin-bottom: -8px;
+}
+.left-bold{
+    margin-right: auto;  
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #fff;
+    margin: 0px auto;
+    margin-top: 25px;
+    padding: 1px 30px;
+    width: 80%;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+.header-info{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .contact-info{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+h3 {
+    margin: 15px 0 5px 0;
+    font-size: 1.2em;
+    color: #444;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.experience, .projects, .education{
+    margin-top: -20px;   
+}
+.education{
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+}
+@media(max-width:3000px) {
+    body{
+        margin: 0 15%;
+    }
+}
+.project-skills{
+    font-style: italic;
+}
+
